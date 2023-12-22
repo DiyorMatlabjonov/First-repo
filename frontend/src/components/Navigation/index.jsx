@@ -2,9 +2,18 @@ import "./style.scss"
 
 function Navigation() {
     return (
-        <>
-            <h1>Navigation</h1>
-        </>
+        <div>
+            <div id="navbar-wrapper">
+                <div className="logo">
+                    <img src="" alt="Logo" />
+                </div>
+                <div id="nav-links">
+                    <a href="#Главная">Главная</a>
+                    <a href="#Экскурсии">Экскурсии</a>
+                    <a href="#Личный кабинет">Личный кабинет</a>
+                </div>
+            </div>
+        </div>
     );
 }
 
